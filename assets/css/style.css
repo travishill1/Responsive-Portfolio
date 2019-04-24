@@ -126,12 +126,14 @@ body {
 
   #sub-container {
     padding-top: 20px;
-    max-width: 50%;
+    /* min-height: calc(50vh - 70px); */
+    /* max-width: 75%; */
   }
 
   #info-container {
     padding-top: 130px;
-    max-width: 50%;
+    /* min-height: calc(50vh - 70px); */
+    /* max-width: 75%; */
   }
 
   .info-pic {
