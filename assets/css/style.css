@@ -123,6 +123,28 @@ body {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
   }
+
+  #sub-container {
+    padding-top: 20px;
+    max-width: 50%;
+  }
+
+  #info-container {
+    padding-top: 130px;
+    max-width: 50%;
+  }
+
+  .info-pic {
+    float: right;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .info-text {
+    float: left;
+  }
   
   .main-section {
     float: left;
@@ -262,5 +284,28 @@ body {
     }
     .work {
       width:100%;
+    }
+    #sub-container {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      margin-bottom: 100px;
+      max-width: 100%;
+    }
+  
+    #info-container {
+      padding-top: 130px;
+      max-width: 100%;
+    }
+  
+    .info-pic {
+      float: right;
+      width: 200px;
+      height: auto;
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+  
+    .info-text {
+      float: left;
     }
   }
